@@ -8,7 +8,7 @@
 
 if AdminUser.count.zero?
   email = 'admin@example.com'
-  password = SecureRandom.hex
+  password = 'Password1'
 
   AdminUser.create!(
     email: email,

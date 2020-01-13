@@ -12,54 +12,54 @@
  *
  */
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400');
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Arvo:400');
 
-$font-family-sans-serif: Montserrat, Helvetica, Arial, sans-serif;
-$font-family-serif: Arvo, Georgia, "Times New Roman", Times, serif;
+ $font-family-sans-serif: Montserrat, Helvetica, Arial, sans-serif;
+ $font-family-serif: Arvo, Georgia, "Times New Roman", Times, serif;
 
-$font-family-base: $font-family-serif;
-$headings-font-family: $font-family-sans-serif;
+ $font-family-base: $font-family-serif;
+ $headings-font-family: $font-family-sans-serif;
 
-$body-color: rgba(28, 13, 10, 0.7);
-$headings-color: rgba(28, 13, 10, 0.7);
+ $body-color: rgba(75, 6, 6, 0.8);
+ $headings-color: rgba(75, 6, 6, 1);
 
-$theme-colors: (
-  "primary": #ff745c
-);
+ $theme-colors: (
+   "primary": rgb(15, 83, 60)
+ );
 
-$enable-rounded: false;
+ $enable-rounded: false;
 
-@import "bootstrap";
-@import "guests";
-@import "welcome";
+ @import "bootstrap";
+ @import "guests";
+ @import "welcome";
 
-h1 {
-  font-size: 60px;
-  font-weight: 700;
-  letter-spacing: 0.0833333em;
-  text-transform: uppercase;
-}
+ h1 {
+   font-size: 60px;
+   font-weight: 700;
+   letter-spacing: 0.0833333em;
+   text-transform: uppercase;
+ }
 
-h2 {
-  color: theme-color("primary");
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1.5em;
-  letter-spacing: 0.0833333em;
-  text-transform: uppercase;
+ h2 {
+   color: theme-color("primary");
+   font-size: 28px;
+   font-weight: 700;
+   line-height: 1.5em;
+   letter-spacing: 0.0833333em;
+   text-transform: uppercase;
 
-  svg {
-    fill: currentColor;
-    margin: 0 auto;
-    height: 100px;
-  }
-}
+   svg {
+     fill: currentColor;
+     margin: 0 auto;
+     height: 100px;
+   }
+ }
 
-.wedding-cta-btn {
-  letter-spacing: 2px;
-  padding: 0.75rem 1.5rem;
-}
+ .wedding-cta-btn {
+   letter-spacing: 2px;
+   padding: 0.75rem 1.5rem;
+ }
 
-.wedding-required {
-  color: theme-color("primary");
-}
+ .wedding-required {
+   color: theme-color("primary");
+ }
