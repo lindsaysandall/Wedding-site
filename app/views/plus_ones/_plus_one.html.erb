@@ -14,17 +14,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
-        Child
-      </div>
-      <div class="col-md-8">
-        <p><%= plus_one.child ? 'Yes' : 'No' %></p>
-      </div>
-    </div>
-    <div class="row">
       <div class="col-md-12 text-right">
         <%= link_to 'Edit', edit_guest_plus_one_path(plus_one.guest, plus_one), class: 'card-link', data: { disable_with: 'Loading...' } %>
-        <%= link_to 'Remove', guest_plus_one_path(plus_one.guest, plus_one), method: :delete, class: 'card-link', data: { disable_with: 'Removing...', confirm: 'Are you sure?' } %>
+        <%= link_to 'Remove', guest_plus_one_path(plus_one.guest, plus_one), method: :delete, class: 'card-link', data: { disable_with: 'Removing...', confirm: 'Are you sure you want to remove this guest?' } %>
       </div>
     </div>
   </div>
