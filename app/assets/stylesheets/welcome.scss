@@ -85,20 +85,11 @@
 }
 
 #welcome-index-footer {
-  background-color: #faebe3;
+  background-color: rgba(206, 121, 81, 0.8);
   margin-top: 5 * $spacer;
 
   #welcome-index-footer-cta {
     padding-top: 8 * $spacer;
-    padding-bottom: 3 * $spacer;
-  }
-
-  #welcome-index-footer-credits {
-    padding-top: 5 * $spacer;
-    padding-bottom: 3 * $spacer;
-
-    small {
-      color: rgba(28, 13, 10, 0.4);
-    }
+    padding-bottom: 7 * $spacer;
   }
 }
