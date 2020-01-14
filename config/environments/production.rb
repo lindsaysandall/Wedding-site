@@ -63,7 +63,7 @@ Rails.application.configure do
 
   config.action_mailer.default_url_options = {
     host: ENV['CANONICAL_HOST'],
-    protocol: ENV['CANONICAL_HOST_PROTOCOL'] || 'https'
+    protocol: 'https'
   }
 
   config.action_mailer.smtp_settings = {
